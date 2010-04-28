@@ -1,0 +1,24 @@
+= Friendly Demo
+
+== Getting Started
+=== Installation
+
+First, obviously, you'll need FriendlyORM:
+
+  gem install friendly
+
+You'll also want memcached for the caching portion:
+
+  gem install memcached
+
+Oh, and yeah, you'll probably want rails. I did the demo with 2.3.4;
+you can either install that version or change the version requirement
+in config/environments.rb
+
+  gem install rails -v2.3.4
+
+=== Setup
+
+  rake db:create:all
+  rake db:migrate
+  rake spec # make sure everything passes

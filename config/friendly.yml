@@ -1,0 +1,6 @@
+development:
+  :adapter: "mysql"
+  :host: "localhost"
+  :user: "root"
+  :database: "friendly_demo_development"
+  

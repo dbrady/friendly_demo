@@ -5,6 +5,7 @@ class BlogPost
   attribute :title, String
   attribute :body, String
   
-#   indexes :author
-#   indexes :created_at
+  indexes :author
+  indexes :title
 end
+
